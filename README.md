@@ -643,8 +643,8 @@ Requisitos:
 
 ## Siguiente paso
 Entra a:
-- [`/flexbox`](./flexbox/README.md)
-- [`/grid`](./grid/README.md)
+- [`/flexbox`](/flexbox/README.md)
+- [`/grid`](/grid/README.md)
 
 ---
 
