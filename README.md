@@ -656,3 +656,64 @@ Esta guía está soportada por este contenido:
 - Video Grid (para aprender): https://www.youtube.com/watch?v=-kgGATnsPbs  
 
 ---
+
+# Extra — Tarea de investigación: Frameworks CSS 
+
+> **Objetivo:** investigar, comparar y justificar qué framework(s) CSS usarías en proyectos reales según el tipo de producto, equipo y contexto.
+
+---
+
+## 1) ¿Qué es un framework CSS?
+
+Un **framework CSS** es un conjunto de estilos, componentes y/o utilidades que acelera el desarrollo de interfaces:
+- **Framework de componentes** (ej. Bootstrap): trae botones, navbar, grids, formularios ya listos.
+- **Framework utility-first** (ej. Tailwind): trae clases pequeñas (utilidades) para construir UI componiendo clases.
+
+---
+
+## 2) Frameworks a investigar (mínimo)
+
+### A) Bootstrap
+- **Tipo:** framework de componentes + utilidades
+- **Enfoque:** rapidez con componentes pre-hechos (navbars, modals, cards, forms, etc.)
+- **Puntos clave a revisar:**
+  - Sistema de grid
+  - Componentes y JS (modals, dropdowns)
+  - Personalización (variables, theming)
+  - Tamaño final del bundle / performance
+
+### B) Tailwind CSS
+- **Tipo:** utility-first
+- **Enfoque:** construir UI con clases utilitarias (sin componentes pre-hechos)
+- **Puntos clave a revisar:**
+  - Filosofía utility-first
+  - Configuración (`tailwind.config.js`)
+  - Purge/Tree-shaking (remover CSS no usado)
+  - Design system: spacing, colors, typography
+
+### C) Bulma
+- **Tipo:** componentes (CSS puro)
+- **Enfoque:** simple y fácil, sin JS incluido por defecto
+- **Puntos clave:**
+  - Curva de aprendizaje
+  - Componentes disponibles
+  - Flexbox como base
+
+### D) Foundation
+- **Tipo:** componentes (tradicional)
+- **Enfoque:** UI responsive, enfoque enterprise
+- **Puntos clave:**
+  - Grid y componentes
+  - Accesibilidad
+  - Comunidad / adopción
+
+### E) Material UI / Material Design frameworks
+- **Ejemplos:** MUI (React), Angular Material
+- **Tipo:** librerías de componentes (no solo CSS)
+- **Enfoque:** diseño Material listo para apps
+- **Puntos clave:**
+  - Integración por framework (React/Angular/Vue)
+  - Componentes avanzados
+  - Theming y accesibilidad
+
+---
