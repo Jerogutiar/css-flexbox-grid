@@ -1,4 +1,4 @@
-# CSS Flexbox + CSS Grid — Guía completa (Repositorio)
+# CSS Flexbox + CSS Grid — Guía completa 
 
 > Este repositorio está organizado en **2 carpetas**:
 >
@@ -643,8 +643,8 @@ Requisitos:
 
 ## Siguiente paso
 Entra a:
-- [`/flexbox`](/flexbox/README.md)
-- [`/grid`](/grid/README.md)
+- [`/flexbox`](./flexbox/)
+- [`/grid`](./grid/)
 
 ---
 
